@@ -23,7 +23,7 @@ import {
 import { toast } from 'sonner';
 import { Dialog, DialogContent } from '../components/ui/dialog'; // Assurez-vous d'avoir ce composant ou importez de shadcn
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backend-eazy-visa.onrender.com/api';
 
 export default function HotelsPage() {
   const heroImages = [

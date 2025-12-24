@@ -11,7 +11,7 @@ interface BookingModalProps {
   title?: string;
 }
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backend-eazy-visa.onrender.com/api';
 
 export default function BookingModal({ isOpen, onClose, title = 'Réserver un rendez-vous' }: BookingModalProps) {
   const [formData, setFormData] = useState({

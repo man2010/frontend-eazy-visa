@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { toast } from 'sonner';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backend-eazy-visa.onrender.com/api';
 
 export default function FlightsPage() {
   const heroImages = [
